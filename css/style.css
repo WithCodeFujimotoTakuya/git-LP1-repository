@@ -55,6 +55,7 @@ body {
   background-position: 50%;
   position: relative;
   z-index: 0;
+  /* opacity: 0.5; */
 }
 
 .top-wrap.__bg::after {
@@ -64,9 +65,9 @@ body {
   height: 100%;
   top: 0;
   z-index: -1;
-  background: linear-gradient(90deg,
+  background: linear-gradient(0deg,
  rgba(255, 255, 255, 0) 0%,
- rgba(255, 255, 255, 0.75) 60%);
+ rgb(255, 255, 255) 100%);
 }
 .f-ttl {
   font-size: 2.0rem;
@@ -87,7 +88,7 @@ body {
 .f-ttl2 {
   font-size: 2.75rem;
   color: #fff;
-  background-color: #f06c6c5d;
+  background-color: #f92d2da4;
   position: absolute;
   z-index: 1;
   top: 70%;
@@ -120,7 +121,8 @@ body {
   display: inline-block;
   font-size: 2.5rem;
   font-weight: 700;
-  color: #1b0bf5;
+  color: #fff;
+  background-color: #2307f5f1;
 }
 /* .c-ttl {
   font-size: 1.75rem;
@@ -574,14 +576,14 @@ body {
 }
 
 .contact-wrap__con__block__btn button {
-  width: 110%;
+  width: 125%;
   cursor: pointer;
   font-size: 1.7rem;
   font-weight: bold;
-  padding: 5px 0px;
+  padding: 15px 5px;
   background-color: #fd0606f3;
-  border-radius: 50px;
-  color: #000;
+  border-radius: 30px;
+  color: #fff;
   border: unset;
   line-height: 1.5;
   box-shadow: 4px 3px 7px rgb(0 0 0 / 40%);
